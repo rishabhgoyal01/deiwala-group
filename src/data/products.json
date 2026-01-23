@@ -1,0 +1,136 @@
+[
+    {
+      "id": "pj-1000-a",
+      "category": "pet-jar",
+      "title": "1 Litre PET Jar (Classic)",
+      "volume": "1000ml",
+      "neckSize": "83mm",
+      "image": "/assets/products/PetJar/1LPetJar(a).jpeg"
+    },
+    {
+      "id": "pj-1000-b",
+      "category": "pet-jar",
+      "title": "1 Litre PET Jar (Round Ribbed)",
+      "volume": "1000ml",
+      "neckSize": "83mm",
+      "image": "/assets/products/PetJar/1LPetJar(b).jpeg"
+    },
+    {
+      "id": "pj-1200-a",
+      "category": "pet-jar",
+      "title": "1.2 Litre PET Jar (Square)",
+      "volume": "1200ml",
+      "neckSize": "83mm",
+      "image": "/assets/products/PetJar/1.2LPetJar(a).jpeg"
+    },
+    {
+      "id": "pj-1200-b",
+      "category": "pet-jar",
+      "title": "1.2 Litre PET Jar (Tall Ribbed)",
+      "volume": "1200ml",
+      "neckSize": "83mm",
+      "image": "/assets/products/PetJar/1.2LPetJar(b).jpeg"
+    },
+    {
+      "id": "pj-1500",
+      "category": "pet-jar",
+      "title": "1.5 Litre PET Jar (Cylindrical)",
+      "volume": "1500ml",
+      "neckSize": "83mm",
+      "image": "/assets/products/PetJar/1.5lPetJar.jpeg"
+    },
+    {
+      "id": "pj-4000",
+      "category": "pet-jar",
+      "title": "4 Litre PET Jar (Wide Mouth)",
+      "volume": "4000ml",
+      "neckSize": "96mm",
+      "image": "/assets/products/PetJar/4LPetJar.jpeg"
+    },
+    {
+      "id": "pj-5000",
+      "category": "pet-jar",
+      "title": "5 Litre PET Jar (With Handle)",
+      "volume": "5000ml",
+      "neckSize": "46mm",
+      "image": "/assets/products/PetJar/5LPetJar.jpeg"
+    },
+    {
+      "id": "pb-1000-oil",
+      "category": "pet-bottle",
+      "title": "1 Litre Premium Oil Bottle",
+      "volume": "1000ml",
+      "neckSize": "28mm",
+      "features": "Premium packaging; includes cap color options (Black, Yellow, Red)",
+      "image": "/assets/products/PetBottle/1LPetBtl.jpeg"
+    },
+    {
+      "id": "pb-1000-ctc",
+      "category": "pet-bottle",
+      "title": "1 Litre Oil Bottle (CTC Cap)",
+      "volume": "1000ml",
+      "neckSize": "28mm",
+      "image": "/assets/products/PetBottle/1LPetBtl(ctccap).jpeg"
+    },
+    {
+      "id": "pb-1000-plain",
+      "category": "pet-bottle",
+      "title": "1 Litre Gol Plain Bottle",
+      "volume": "1000ml",
+      "neckSize": "28mm",
+      "image": "/assets/products/PetBottle/1LPetBtl(PlainRound).jpeg"
+    },
+    {
+      "id": "pb-250-sq",
+      "category": "pet-bottle",
+      "title": "250ml Square PET Bottle",
+      "volume": "250ml",
+      "neckSize": "28mm",
+      "image": "/assets/products/PetBottle/250MLPetBtl.jpeg"
+    },
+    {
+      "id": "pb-200-oil",
+      "category": "pet-bottle",
+      "title": "200ml Multipurpose Bottle",
+      "volume": "200ml",
+      "neckSize": "25mm",
+      "features": "Ideal for Oil or Shampoo; supports normal and fliptop caps",
+      "image": "/assets/products/PetBottle/200MLPetBtl.jpeg"
+    },
+    {
+      "id": "pb-200-milk",
+      "category": "pet-bottle",
+      "title": "200ml Amul-Style Premium Bottle",
+      "volume": "200ml",
+      "neckSize": "25mm",
+      "features": "Exclusive packaging for shakes, juice, and milk",
+      "image": "/assets/products/PetBottle/200MLPetBtl(milk).jpeg"
+    },
+    {
+      "id": "hc-5000-a",
+      "category": "hdpe-jar",
+      "title": "5 Litre HDPE Can (Standard White)",
+      "volume": "5000ml",
+      "neckSize": "38mm",
+      "features": "Industrial grade, heavy-duty handle",
+      "image": "/assets/products/HdpeJar/5LHdpeJar(a).jpeg"
+    },
+    {
+      "id": "hc-5000-b",
+      "category": "hdpe-jar",
+      "title": "5 Litre HDPE Can (Slim Profile)",
+      "volume": "5000ml",
+      "neckSize": "38mm",
+      "features": "Space-saving design, impact resistant",
+      "image": "/assets/products/HdpeJar/5LhdpeJar(b).jpeg"
+    },
+    {
+      "id": "hb-1000-harpic",
+      "category": "hdpe-bottle",
+      "title": "1 Litre HDPE Toilet Cleaner Bottle",
+      "volume": "1000ml",
+      "neckSize": "Custom Angular",
+      "features": "Harpic-style angular neck for easy reach  Available in 250ml, 500ml, 1litre",
+      "image": "/assets/products/HdpeBottle/1LHdpeBtl(harpic).jpeg"
+    }
+  ]
