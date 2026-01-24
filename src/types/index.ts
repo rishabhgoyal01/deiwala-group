@@ -5,4 +5,5 @@ export interface Product {
   volume: string;
   neckSize: string;
   image: string;
+  features?: string;
 }

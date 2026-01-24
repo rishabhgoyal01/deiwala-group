@@ -21,7 +21,7 @@ export async function sendInquiry(prevState: any, formData: FormData) {
 
     await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'deiwalag04@gmail.com',
+      to: process.env.RESEND_RECIPIENT_EMAIL as string,
       subject: 'New Inquiry from your Website',
       text: `Name: ${parsed.name}\nPhone: ${parsed.phone}\nDescription: ${parsed.description}`,
     });
