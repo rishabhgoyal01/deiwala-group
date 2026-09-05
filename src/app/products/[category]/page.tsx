@@ -1,7 +1,25 @@
+import type { Metadata } from 'next';
 import products from '@/data/products.json';
 import { Product } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
+
+export function generateStaticParams() {
+  const categories = Array.from(new Set(products.map((product) => product.category)));
+  return categories.map((category) => ({ category }));
+}
+
+export function generateMetadata({ params }: CategoryPageProps): Metadata {
+  const name = params.category
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+  return {
+    title: name,
+    description: `${name} manufactured by Deiwala Plastic Products, Kota. Browse available volumes and neck sizes.`,
+    alternates: { canonical: `/products/${params.category}` },
+  };
+}
 
 type CategoryPageProps = {
   params: {

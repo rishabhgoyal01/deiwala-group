@@ -19,12 +19,21 @@ export async function sendInquiry(prevState: any, formData: FormData) {
       description: formData.get('description'),
     });
 
-    await resend.emails.send({
-      from: 'onboarding@resend.dev',
-      to: process.env.RESEND_RECIPIENT_EMAIL as string,
-      subject: 'New Inquiry from your Website',
+    const to = process.env.MANUFACTURER_EMAIL;
+    if (!to) {
+      throw new Error('MANUFACTURER_EMAIL is not configured.');
+    }
+
+    const { error } = await resend.emails.send({
+      from: process.env.FROM_EMAIL || 'onboarding@resend.dev',
+      to,
+      subject: `New Inquiry from ${parsed.name}`,
       text: `Name: ${parsed.name}\nPhone: ${parsed.phone}\nDescription: ${parsed.description}`,
     });
+
+    if (error) {
+      throw new Error(`${error.name}: ${error.message}`);
+    }
 
     return { message: 'Inquiry submitted successfully!' };
   } catch (error) {
